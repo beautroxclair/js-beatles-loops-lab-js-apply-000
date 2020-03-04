@@ -6,3 +6,11 @@ function theBeatlesPlay(arr1, arr2){
   }
   return finalArr;
 }
+
+function johnLennonFacts(arr){
+  let withExcitement = [];
+  for (let i=0; i<arr.length;i++){
+    withExcitement.push(`${arr[i]}!!!`)
+  }
+  return withExcitement;
+}
